@@ -1,4 +1,4 @@
-﻿namespace Test; //File-Scoped Namespace: alle Member in diesem File haben den Namespace
+﻿namespace Sprachfeatures; //File-Scoped Namespace: alle Member in diesem File haben den Namespace
 
 internal class Program
 {

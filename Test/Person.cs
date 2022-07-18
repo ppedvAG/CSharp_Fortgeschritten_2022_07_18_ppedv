@@ -1,4 +1,4 @@
-﻿namespace Test
+﻿namespace Sprachfeatures
 {
 	internal record Person
 	(
