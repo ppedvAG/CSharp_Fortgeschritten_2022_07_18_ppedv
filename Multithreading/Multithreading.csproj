@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Multithreading._07_Lock</StartupObject>
+    <StartupObject>KontoSimulator.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
