@@ -250,6 +250,7 @@ public class Fahrzeug
 {
 	[XmlIgnore] //Feld beim Serialisieren ignorieren
 	[XmlAttribute] //Attribute statt Element
+	[field: NonSerialized] //BinaryIgnore
 	public int ID { get; set; }
 
 	[JsonPropertyName("MaxV")] //Name vom Feld im Json angeben
