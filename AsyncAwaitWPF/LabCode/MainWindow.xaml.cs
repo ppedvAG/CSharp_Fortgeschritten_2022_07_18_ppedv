@@ -1,17 +1,18 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace JsonSplit
 {
 	public partial class MainWindow : Window
 	{
+		/// <summary>
+		/// Datei herunterladen, an einen beliebigen Ort speichern, entpacken und danach mit SaveSplitJson einlesen und bearbeiten.
+		/// http://bulk.openweathermap.org/sample/history.city.list.min.json.gz
+		/// </summary>
 		public MainWindow() => InitializeComponent();
 
 		/// <summary>
