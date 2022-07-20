@@ -25,15 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitWPF", "AsyncAwait
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitLösung", "AsyncAwaitLösung\AsyncAwaitLösung.csproj", "{424D9FCE-62FA-4F89-8916-52CFCCDFEB74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{FB9AE94F-95F3-402E-B366-D2DBC3C1674D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{FB9AE94F-95F3-402E-B366-D2DBC3C1674D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginPattern", "PluginPattern", "{1DF1B232-E8FF-45F5-81DE-75FF911A6CF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{3D36039F-088B-4FF9-BA84-2A0574270339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginBase", "PluginBase\PluginBase.csproj", "{3D36039F-088B-4FF9-BA84-2A0574270339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlugin", "TestPlugin\TestPlugin.csproj", "{093FFCD4-9081-4E48-B735-7548BA88D74B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPlugin", "TestPlugin\TestPlugin.csproj", "{093FFCD4-9081-4E48-B735-7548BA88D74B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginClient", "PluginClient\PluginClient.csproj", "{F92E27F5-1B75-4038-BAD9-A474039E2517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginClient", "PluginClient\PluginClient.csproj", "{F92E27F5-1B75-4038-BAD9-A474039E2517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{A7B58196-F7C9-4A1D-928B-7208FC9C26CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{F92E27F5-1B75-4038-BAD9-A474039E2517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92E27F5-1B75-4038-BAD9-A474039E2517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92E27F5-1B75-4038-BAD9-A474039E2517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B58196-F7C9-4A1D-928B-7208FC9C26CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B58196-F7C9-4A1D-928B-7208FC9C26CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B58196-F7C9-4A1D-928B-7208FC9C26CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B58196-F7C9-4A1D-928B-7208FC9C26CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
